@@ -10,7 +10,11 @@
   <div id="app">文档加载中</div>
   <script>
     window.$docsify = {
-      //...
+      // 加载 _sidebar.md
+      loadSidebar: true,
+
+      // 加载 summary.md
+      loadSidebar: 'summary.md',
     }
   </script>
   <script src="//cdn.bootcdn.net/ajax/libs/docsify/4.13.0/docsify.min.js"></script>
